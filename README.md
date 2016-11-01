@@ -2,7 +2,7 @@
 
 
 
-Overview
+<h1>Overview</h1>
 
   We live in a world where environmental issues have become essential to everyday life. Recycling is a important tool to make a better way of living. 
   
