@@ -17,8 +17,9 @@ This is a web app where you can keep track of the water bottles you have donated
     var User = new mongoose.Schema({
         username: String,
         password: String,
-        bottlesDonated: [Bottle]
-        dogsFostered: [Dog]
+        bottlesDonated: [Bottle],
+        dogsFostered: [Dog],
+        dogFood: Number
     });
         
     var Dog = new mongoose.Schema({
@@ -35,8 +36,23 @@ This is a web app where you can keep track of the water bottles you have donated
 
 <h2>WireFrames</h2>
 
-<h2>User Stories</h2>  
+<h2>User Stories</h2> 
+1. As a user, I can create an account
+2. As a user, I can donate water bottles
+3. As a user, I can choose what dogs I want to foster and the amount of food I want to give
+4. As a user, I can view the number of bottles donated and the dogs I fostered
 
 <h2>Research Topics</h2>
+(6 points)Integrate user authentication
+
+    Check for user username and password when logging in 
+
+(4 ponits) Unit Testing
+
+    making sure that all the functions are working properly and that adding and deleting information is fine
+    
+(2 points) CSS Framework
+    
+    adding photos of dogs and other decorating features to the program
 
 
