@@ -35,6 +35,17 @@ This is a web app where you can keep track of the water bottles you have donated
     
 
 <h2>WireFrames</h2>
+/homepage
+![Alt text](/images/4.jpg?raw=true "Optional Title")
+
+/register
+![Alt text](/images/2.jpg?raw=true "Optional Title")
+
+/login
+![Alt text](/images/1.jpg?raw=true "Optional Title")
+
+/myRecord
+![Alt text](/images/3.jpg?raw=true "Optional Title")
 
 <h2>User Stories</h2> 
 1. As a user, I can create an account
