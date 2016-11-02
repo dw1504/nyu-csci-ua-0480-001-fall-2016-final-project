@@ -19,8 +19,8 @@
         password: String,
         bottlesDonated: [Bottle]
         dogsFostered: [Dog]
-    });
-    
+    });
+        
     var Dog = new mongoose.Schema({
         name: String,
         age: Number, 
