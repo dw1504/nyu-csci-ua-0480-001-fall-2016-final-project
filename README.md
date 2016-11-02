@@ -10,10 +10,27 @@
 <h2>Data Model</h2>
     First dradft schema 
     
+    var UserList = new mongoose.Schema({
+        UserArray: [User]
+    })
+    
     var User = new mongoose.Schema({
-  // username, password provided by plugin
-  lists:  [{ type: mongoose.Schema.Types.ObjectId, ref: 'List' }]
-});
+        username: String,
+        password: String,
+        bottlesDonated: [Bottle]
+        dogsFostered: [Dog]
+    });
+    
+    var Dog = new mongoose.Schema({
+        name: String,
+        age: Number, 
+        foodReceived: Number
+    });
+    
+    var Bottle = new mongoose.Schema({
+       size = Number, 
+       numDonated = Number
+    });
   
 
 <h2>WireFrames</h2>
