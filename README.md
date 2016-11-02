@@ -12,7 +12,7 @@
     
     var UserList = new mongoose.Schema({
         UserArray: [User]
-    })
+    });
     
     var User = new mongoose.Schema({
         username: String,
