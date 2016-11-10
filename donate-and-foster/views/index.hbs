@@ -1,2 +1,14 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<form method="POST" action="/add">
+	User name: <input type="text" name="username"> <br>
+	User password: <input type="text" name="password"><br>
+	<input type="submit">
+</form>
+
+{{#each users}}
+	<ul>
+	{{#each this.UserArray}}
+		<li>{{this.username}}</li>
+		<li>{{password}}</li>
+	{{/each}}
+	</ul>
+{{/each}}
