@@ -47,6 +47,9 @@ This is a web app where you can keep track of the water bottles you have donated
 /myRecord
 ![Alt text](/images/3.jpg?raw=true "Optional Title")
 
+<h2>SiteMap</h2>
+![Alt text](/images/Screen Shot 2016-11-02 at 11.37.45 AM.png?raw=true "Optional Title")
+
 <h2>User Stories</h2> 
 1. As a user, I can create an account
 2. As a user, I can donate water bottles
